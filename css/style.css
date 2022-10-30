@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: #f2f2f2;
+  background-color: #e28625;
+}
+
+main section {
+  padding: 4.8em;
+  border-radius: 0.8em;
+}
+
+button {
+  border-radius: 2.5em;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 1.2em 3.2em;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: bold;
+  font-size: 4rem;
+  margin: 3.5rem 0 2.5rem 0;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 2.5em;
+}
+
+.suv {
+  background-color: #006971;
+}
+.luxury {
+  background-color: #004140;
+}
+.sedan button {
+  color: #e28625;
+}
+.suv button {
+  color: #006971;
+}
+.luxury button {
+  color: #004140;
+}
