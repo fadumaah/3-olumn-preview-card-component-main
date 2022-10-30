@@ -48,3 +48,46 @@ p {
 .luxury button {
   color: #004140;
 }
+
+/* Interaction */
+
+button:hover,
+button:active {
+  cursor: pointer;
+}
+
+.sedan > button:hover,
+.sedan > button:active {
+  background-color: #e28625;
+  border: 1px solid #ffffff;
+  color: white;
+}
+.suv > button:hover,
+.suv > button:active {
+  background-color: #006971;
+  border: 1px solid #ffffff;
+  color: white;
+}
+.luxury > button:hover,
+.luxury > button:active {
+  background-color: #004140;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+/* Media Queries */
+@media screen and (min-width: 900px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container section {
+    height: 100vh;
+  }
+
+  p {
+    line-height: 2.5em;
+    margin-bottom: 8.5em;
+  }
+}
