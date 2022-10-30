@@ -30,6 +30,7 @@ h2 {
 }
 
 p {
+  line-height: 2.5em;
   margin-bottom: 2.5em;
 }
 
@@ -82,12 +83,20 @@ button:active {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .container section {
-    height: 100vh;
+  img {
+    max-width: 6.4em;
   }
 
-  p {
-    line-height: 2.5em;
-    margin-bottom: 8.5em;
+  main section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.5em;
+  }
+
+  main section button {
+    align-self: flex-start;
+    margin-top: auto;
   }
 }
